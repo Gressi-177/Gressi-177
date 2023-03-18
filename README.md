@@ -21,3 +21,4 @@
 - :zap: 
 
 <h2 align="left">:heart: Let's get connected:</h2>
+<a href="https://facebook.com/https://www.facebook.com/profile.php?id=100086773551926" rel="nofollow"><img src="https://camo.githubusercontent.com/6507b6af1fa0c23a32321b4594fe0f353fc56a2e6721ea67a5f51cd830c85b61/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f46616365626f6f6b2d2532333138373746322e7376673f6c6f676f3d46616365626f6f6b266c6f676f436f6c6f723d7768697465" alt="Facebook" data-canonical-src="https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&amp;logoColor=white" style="max-width: 100%;"></a>
