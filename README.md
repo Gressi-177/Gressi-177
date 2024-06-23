@@ -1,9 +1,4 @@
-<a href="https://github.com/jgphilpott/github-readme-stats">
-    <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Gressi-177&hide_title=true&langs_count=10&hide=G-code&hide_border=true&theme=dark&bg_color=0e1116&title_color=ffffff&text_color=ffffff&layout=donut-vertical&exclude_repo=babel,convert">
-        <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gressi-177&hide_title=true&langs_count=10&hide=G-code&hide_border=true&layout=donut-vertical&exclude_repo=babel,convert">
-    </picture>
-</a>
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Gressi-177&langs_count=10&layout=donut-vertical&exclude_repo=babel,convert)](https://github.com/anuraghazra/github-readme-stats)
 
 &nbsp;&nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/asmodeus177">
@@ -21,24 +16,10 @@
 </a>
 
 &nbsp;&nbsp;&nbsp;
+![VietDoan's GitHub stats](https://github-readme-stats.vercel.app/api?username=Gressi-177&show_icons=true&)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Gressi-177)](https://git.io/streak-stats)
 
-<a href="https://github.com/jgphilpott/github-readme-stats">
-    <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Gressi-177&hide_title=true&include_all_commits=true&count_private=true&show_icons=true&&theme=dark&bg_color=0e1116&title_color=ffffff&text_color=ffffff&icon_color=1f6feb">
-        <img align="left" src="https://github-readme-stats.vercel.app/api?username=Gressi-177&hide_title=true&include_all_commits=true&count_private=true&show_icons=true">
-    </picture>
-</a>
-
-<a href="https://github.com/jgphilpott/github-readme-streak-stats">
-    <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Gressi-177&hide_border=true&theme=dark&background=0e1116">
-        <img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=Gressi-177&hide_border=true">
-    </picture>
-</a>
-
-<a href="https://github.com/jgphilpott/github-readme-activity-graph">
-    <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Gressi-177&theme=github-dark&area=true&hide_border=true&custom_title=Past%20Months%20Activity&color=ffffff&bg_color=0e1116">
-        <img align="center" src="https://github-readme-activity-graph.vercel.app/graph?username=Gressi-177&theme=github-light&area=true&hide_border=true&custom_title=Past%20Months%20Activity">
-    </picture>
-</a>
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Gressi-177&theme=github-dark&area=true&hide_border=true&custom_title=Past%20Months%20Activity&color=ffffff&bg_color=0e1116">
+    <img align="center" src="https://github-readme-activity-graph.vercel.app/graph?username=Gressi-177&theme=github-light&area=true&hide_border=true&custom_title=Past%20Months%20Activity">
+</picture>
