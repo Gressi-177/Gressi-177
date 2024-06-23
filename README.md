@@ -1,5 +1,9 @@
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Gressi-177&langs_count=10&layout=donut-vertical&exclude_repo=babel,convert)](https://github.com/anuraghazra/github-readme-stats)
-
+<a href="https://github.com/jgphilpott/github-readme-stats">
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Gressi-177&hide_title=true&langs_count=10&hide=G-code&hide_border=true&theme=dark&bg_color=0e1116&title_color=ffffff&text_color=ffffff&layout=donut-vertical&exclude_repo=babel,convert">
+        <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gressi-177&hide_title=true&langs_count=10&hide=G-code&hide_border=true&layout=donut-vertical&exclude_repo=babel,convert">
+    </picture>
+</a>
 &nbsp;&nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/asmodeus177">
     <picture>
