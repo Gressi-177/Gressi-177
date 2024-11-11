@@ -48,6 +48,8 @@
 <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> 
 </p>
 
+### - Coding Activity
+
 ![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Gressi-177&theme=github-light&days=40)
 
 <h1 align='center'>⚡️<i>Stay awesome!</i>⚡️</h1>
