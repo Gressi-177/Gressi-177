@@ -17,7 +17,7 @@
 <br />
 <img align="right" width="360px" alt="GIF" src="https://raw.githubusercontent.com/Gressi-177/Gressi-177/refs/heads/main/giphy.webp" />
 <p align="center">
-  <h3> 21 years old, Full-Stack Developer from Vietnam, code is life.</h3>
+  <h3> 21 years old, Frontend Developer from Vietnam, code is life.</h3>
 </p>
 
 - 🥀 Javascript, Typescript, React are my best friends, can't live without them!
