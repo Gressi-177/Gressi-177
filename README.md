@@ -32,12 +32,6 @@
 
 - 💬 Let's connect, share knowledge, and geek out over tech!
 
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=Gressi-177)](https://git.io/streak-stats)
-
-</div>
-
 ### - Languages and Tools...
 
 <p align="center">
