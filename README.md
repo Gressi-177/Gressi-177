@@ -40,8 +40,5 @@
   </a>
 </p>
 
-### - Coding Activity
-
-![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Gressi-177&theme=github-light&days=40)
 
 <h1 align='center'>⚡️<i>Stay awesome!</i>⚡️</h1>
