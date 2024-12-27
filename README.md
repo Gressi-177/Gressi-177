@@ -39,6 +39,3 @@
     <img src="https://skillicons.dev/icons?i=js,ts,nextjs,react,tailwind" />
   </a>
 </p>
-
-
-<h1 align='center'>⚡️<i>Stay awesome!</i>⚡️</h1>
