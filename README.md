@@ -32,6 +32,8 @@
 
 - 💬 Let's connect, share knowledge, and geek out over tech!
 
+- Fall down? Just chill there for a bit, then get back up! 😆💪
+
 ### - Languages and Tools...
 
 <p align="center">
