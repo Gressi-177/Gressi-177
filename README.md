@@ -5,7 +5,7 @@
 <div align="center">
     <h3>
         <img width="40" alt="GIF" src="https://raw.githubusercontent.com/Gressi-177/Gressi-177/refs/heads/main/relaxing.webp" />
-        👩‍💻 Doan Tran | 💻 Full Stack Developer | 🛸 VietNam 
+        👩‍💻 Doan Tran | 💻 Frontend Developer Developer | 🛸 VietNam 
         <img width="40" alt="GIF" src="https://raw.githubusercontent.com/Gressi-177/Gressi-177/refs/heads/main/relaxing.webp" />
     </h3>
 </div>
