@@ -1,43 +1,38 @@
-<div align="center">
-   <h1>Hi there, I'm <a href="https://portfolio-viet-doans-projects.vercel.app">Asmodeus</a> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> </h1>
-</div>
+# Doan Tran
 
-<div align="center">
-    <h3>
-        <img width="40" alt="GIF" src="https://raw.githubusercontent.com/Gressi-177/Gressi-177/refs/heads/main/relaxing.webp" />
-        👩‍💻 Doan Tran | 💻 Frontend Developer Developer | 🛸 VietNam 
-        <img width="40" alt="GIF" src="https://raw.githubusercontent.com/Gressi-177/Gressi-177/refs/heads/main/relaxing.webp" />
-    </h3>
-</div>
+Fullstack developer with a frontend background. I build the interface in React/Next.js and the API behind it in Node.js/NestJS.
 
-<h5 align="center">
-   <i>⚡️Programming: The art of turning coffee into code... and bugs into features!⚡️</i>
-</h5>
- 
-<br />
-<img align="right" width="360px" alt="GIF" src="https://raw.githubusercontent.com/Gressi-177/Gressi-177/refs/heads/main/giphy.webp" />
-<p align="center">
-  <h3>Frontend Developer from Vietnam, code is life.</h3>
-</p>
+Based in Vietnam · Open to fullstack roles
 
-- 🥀 Javascript, Typescript, React are my best friends, can't live without them!
+---
 
-- 💻 Passionate about coding to the point where I can't breathe without it – it's like oxygen!
+## Selected work
 
-- 🎬 Love watching movies, especially those with mind-blowing plot twists!
+### [E-commerce Backend](https://github.com/Gressi-177/ecommerce-backend-nodejs)
 
-- 🎮 Other hobby: Gaming for fun (only when I need to "reset" my brain).
+Multi-vendor commerce API: API-key authentication, JWT access and refresh tokens with rotation and reuse detection, a per-shop product catalog with a draft/publish workflow, and inventory and discount domains.
 
-- Fullstack by day, living life to the fullest, because there's no such thing as "bugs" in life!
+`Node.js` `Express` `MongoDB` `JWT`
 
-- 💬 Let's connect, share knowledge, and geek out over tech!
+### [NestJS Base](https://github.com/Gressi-177/nestjs-base)
 
-- Fall down? Just chill there for a bit, then get back up! 😆💪
+A NestJS starting point with Google OAuth, JWT authentication, and a commit pipeline (Husky, lint-staged, commitlint) so quality checks run before code lands.
 
-### - Languages and Tools...
+`NestJS` `TypeScript` `OAuth`
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,ts,nextjs,react,tailwind,nodejs" />
-  </a>
-</p>
+---
+
+## Stack
+
+`TypeScript` `JavaScript` `React` `Next.js` `Tailwind CSS` `Node.js` `NestJS` `Express` `MongoDB` `PostgreSQL` `Docker`
+
+## How I work
+
+- Own a feature end to end: data model → API → UI.
+- Treat auth and permissions as product requirements, not an afterthought.
+- Prefer clear module boundaries over clever abstractions.
+
+## Contact
+
+- Email: [doantv.dev@gmail.com](mailto:doantv.dev@gmail.com)
+- GitHub: [@Gressi-177](https://github.com/Gressi-177)
