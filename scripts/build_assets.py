@@ -83,7 +83,6 @@ def heading(cmd, comment):
 
 
 HEADINGS = {
-    "h-activity": ("git log --since=1.year", "activity"),
 }
 
 if __name__ == "__main__":
