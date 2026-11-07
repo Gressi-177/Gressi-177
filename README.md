@@ -1,6 +1,6 @@
-<img src="./assets/header.svg" width="100%" alt="Doan Tran, fullstack developer with a frontend background, based in Vietnam. Stack: TypeScript, React, Next.js, Node.js, NestJS, MongoDB, PostgreSQL, Docker. Open to fullstack roles." />
+<img src="./assets/header.svg?v=2" width="100%" alt="Doan Tran, fullstack developer with a frontend background, based in Vietnam. Stack: TypeScript, React, Next.js, Node.js, NestJS, MongoDB, PostgreSQL, Docker. Open to fullstack roles." />
 
-<img src="./assets/h-projects.svg" width="100%" alt="$ ls -l ~/projects" />
+<img src="./assets/h-projects.svg?v=2" width="100%" alt="$ ls -l ~/projects" />
 
 <table>
   <tr>
@@ -17,7 +17,7 @@
   </tr>
 </table>
 
-<img src="./assets/h-activity.svg" width="100%" alt="$ git log --since=1.year" />
+<img src="./assets/h-activity.svg?v=2" width="100%" alt="$ git log --since=1.year" />
 
 <img src="https://raw.githubusercontent.com/Gressi-177/Gressi-177/output/contrib.svg" width="100%" alt="Contribution heatmap for the last 12 months" />
 
