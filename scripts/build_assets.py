@@ -53,22 +53,27 @@ def header():
     name, t = pixel_text("DOAN TRAN", X + 4, y + 16, 11, t + 0.2)
     parts.append(name)
     y += 16 + 7 * 11 + 34
-    stack = ["TypeScript", "React", "Next.js", "Node.js", "NestJS", "MongoDB", "PostgreSQL", "Docker"]
-    stack_out = [p for s in stack for p in ((s, BLUE), ("  .  ", DIM))][:-1]
+    stack = {
+        "frontend": "React, Next.js, TypeScript",
+        "backend": "Node.js, NestJS, PostgreSQL, MongoDB",
+        "tooling": "Docker, Git",
+    }
     script = [
-        ("whoami", [("Doan Tran", GREEN), (" - fullstack developer, frontend background, Vietnam", FG)]),
-        ("cat stack.txt", stack_out),
-        ("cat status.txt", [("open to fullstack roles", GREEN)]),
+        ("whoami", [[("Doan Tran", GREEN), (" - Fullstack Developer", FG)]]),
+        ("cat stack", [[(k.ljust(10), DIM), (v, BLUE)] for k, v in stack.items()]),
+        ("cat status", [[("Open to fullstack roles", GREEN), (" - Vietnam (UTC+7)", FG)]]),
     ]
-    for cmd, out in script:
+    for cmd, rows in script:
         line, t = command(X, y, cmd, t + 0.5)
-        parts += [line, output(X, y + LH, out, t + 0.25)]
+        parts.append(line)
+        for i, row in enumerate(rows, 1):
+            parts.append(output(X, y + LH * i, row, t + 0.25))
         t += 0.25
-        y += LH * 2
+        y += LH * (len(rows) + 1)
     parts.append(command(X, y, "", t + 0.4)[0])
     parts.append(cursor(X + prompt_width(), y, t + 0.4))
     h = y + 30
-    label = "Doan Tran, fullstack developer with a frontend background, based in Vietnam. Stack: " + ", ".join(stack) + ". Open to fullstack roles."
+    label = "Doan Tran, fullstack developer in Vietnam. " + ". ".join(f"{k}: {v}" for k, v in stack.items()) + ". Open to fullstack roles."
     return svg(W, h, GLOW + window(W, h, "doan@vietnam: ~ - zsh", "".join(parts)), label)
 
 
