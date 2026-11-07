@@ -83,7 +83,6 @@ def heading(cmd, comment):
 
 
 HEADINGS = {
-    "h-projects": ("ls -l ~/projects", "selected work"),
     "h-activity": ("git log --since=1.year", "activity"),
 }
 
