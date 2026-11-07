@@ -17,37 +17,16 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-    env:
-      # Same palette as scripts/term.py
-      CARD: bg_color=0d1117&title_color=3fb950&icon_color=3fb950&text_color=c9d1d9&ring_color=3fb950&border_color=30363d&border_radius=10
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
-
-      # README_STATS_TOKEN is an optional PAT (read:user + repo) that adds private
-      # contributions; without it everything falls back to public data.
-      - name: Stats card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&rank_icon=github&${{ env.CARD }}
-          path: dist/stats.svg
-          token: ${{ secrets.README_STATS_TOKEN || secrets.GITHUB_TOKEN }}
-
-      - name: Top languages card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&${{ env.CARD }}
-          path: dist/top-langs.svg
-          token: ${{ secrets.README_STATS_TOKEN || secrets.GITHUB_TOKEN }}
 
       - name: Contribution heatmap
         run: |
           python3 scripts/build_contrib.py --selftest
           python3 scripts/build_contrib.py --user ${{ github.repository_owner }} --out dist/contrib.svg
         env:
-          GITHUB_TOKEN: ${{ secrets.README_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish to output branch
         uses: peaceiris/actions-gh-pages@v4

@@ -53,10 +53,12 @@ def header():
     name, t = pixel_text("DOAN TRAN", X + 4, y + 16, 11, t + 0.2)
     parts.append(name)
     y += 16 + 7 * 11 + 34
+    stack = ["TypeScript", "React", "Next.js", "Node.js", "NestJS", "MongoDB", "PostgreSQL", "Docker"]
+    stack_out = [p for s in stack for p in ((s, BLUE), ("  .  ", DIM))][:-1]
     script = [
-        ("whoami", [("Doan Tran", GREEN), (" - fullstack developer with a frontend background", FG)]),
-        ("cat focus.txt", [("UI in React/Next.js", BLUE), (" . ", DIM), ("APIs in Node.js/NestJS", BLUE), (" . ", DIM), ("auth done right", BLUE)]),
-        ("echo $LOCATION $STATUS", [("Vietnam (UTC+7)", YELLOW), (" . ", DIM), ("open to fullstack roles", GREEN)]),
+        ("whoami", [("Doan Tran", GREEN), (" - fullstack developer, frontend background, Vietnam", FG)]),
+        ("cat stack.txt", stack_out),
+        ("cat status.txt", [("open to fullstack roles", GREEN)]),
     ]
     for cmd, out in script:
         line, t = command(X, y, cmd, t + 0.5)
@@ -66,7 +68,7 @@ def header():
     parts.append(command(X, y, "", t + 0.4)[0])
     parts.append(cursor(X + prompt_width(), y, t + 0.4))
     h = y + 30
-    label = "Terminal window. Doan Tran: fullstack developer with a frontend background. UI in React/Next.js, APIs in Node.js/NestJS. Based in Vietnam, open to fullstack roles."
+    label = "Doan Tran, fullstack developer with a frontend background, based in Vietnam. Stack: " + ", ".join(stack) + ". Open to fullstack roles."
     return svg(W, h, GLOW + window(W, h, "doan@vietnam: ~ - zsh", "".join(parts)), label)
 
 
@@ -80,25 +82,14 @@ def heading(cmd, comment):
     return svg(W, h, body, f"{comment}: $ {cmd}")
 
 
-def footer():
-    h = 130
-    line, t = command(X, 70, "exit", 0.5)
-    body = line + output(X, 70 + LH, [("logout", DIM), (" - thanks for stopping by. ", FG), ("doantv.dev@gmail.com", BLUE)], t + 0.3)
-    body += output(X, 70 + LH * 2, [("[Process completed]", DIM)], t + 0.8)
-    return svg(W, h, window(W, h, "doan@vietnam: ~ - zsh", body), "Terminal: exit. Thanks for stopping by. doantv.dev@gmail.com")
-
-
 HEADINGS = {
-    "h-about": ("cat about.md", "about me"),
-    "h-stack": ("ls ~/stack", "tech stack"),
     "h-projects": ("ls -l ~/projects", "selected work"),
-    "h-stats": ("git log --stat | summary", "activity"),
-    "h-work": ("cat how-i-work.md", "how i work"),
+    "h-activity": ("git log --since=1.year", "activity"),
 }
 
 if __name__ == "__main__":
     OUT.mkdir(exist_ok=True)
-    files = {"header": header(), "footer": footer(), **{k: heading(*v) for k, v in HEADINGS.items()}}
+    files = {"header": header(), **{k: heading(*v) for k, v in HEADINGS.items()}}
     for name, content in files.items():
         (OUT / f"{name}.svg").write_text(content)
         print(f"assets/{name}.svg  {len(content)} bytes")
